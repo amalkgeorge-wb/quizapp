@@ -1,15 +1,24 @@
 {
   "files": {
     "main.css": "/quizapp/static/css/main.d212015e.css",
-    "main.js": "/quizapp/static/js/main.4bfc5b51.js",
+    "main.js": "/quizapp/static/js/main.e8be5886.js",
     "static/js/787.b325c508.chunk.js": "/quizapp/static/js/787.b325c508.chunk.js",
+    "static/media/quiz.png": "/quizapp/static/media/quiz.7412e8cda180b85c93e7.png",
+    "static/media/star.png": "/quizapp/static/media/star.8285e29d41f25302c407.png",
+    "static/media/trophy.png": "/quizapp/static/media/trophy.0de86c22f3befab7c325.png",
+    "static/media/swords.png": "/quizapp/static/media/swords.6f7c5beda20ecb0003b7.png",
+    "static/media/clock.png": "/quizapp/static/media/clock.dc550a9f52c407d30fa5.png",
+    "static/media/question.png": "/quizapp/static/media/question.a97e45146636971d8892.png",
+    "static/media/paper.png": "/quizapp/static/media/paper.021ff5ad9cb1727a403d.png",
+    "static/media/share.png": "/quizapp/static/media/share.c7454fb05c61b06d8417.png",
+    "static/media/comment.png": "/quizapp/static/media/comment.fd05172046de0919dfe4.png",
     "index.html": "/quizapp/index.html",
     "main.d212015e.css.map": "/quizapp/static/css/main.d212015e.css.map",
-    "main.4bfc5b51.js.map": "/quizapp/static/js/main.4bfc5b51.js.map",
+    "main.e8be5886.js.map": "/quizapp/static/js/main.e8be5886.js.map",
     "787.b325c508.chunk.js.map": "/quizapp/static/js/787.b325c508.chunk.js.map"
   },
   "entrypoints": [
     "static/css/main.d212015e.css",
-    "static/js/main.4bfc5b51.js"
+    "static/js/main.e8be5886.js"
   ]
 }
