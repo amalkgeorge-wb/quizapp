@@ -1,5 +1,6 @@
 import { Avatar } from "@mui/material";
-
+import star from "../QuizzImages/star.png"
+import share from "../QuizzImages/share.png"
 export default function DashBoard({ count, time }) {
   return (
     <div className="dashboard">
@@ -37,7 +38,7 @@ export default function DashBoard({ count, time }) {
         <h4 className="share">
           <img
             className="icons img-fluid"
-            src="../Assets/images/share.png"
+            src={share}
             alt="icon"
           />
           <span className="ms-2">Share it with your friends!</span>
@@ -61,7 +62,7 @@ export default function DashBoard({ count, time }) {
           </div>
           <div className="points">
             <img
-              src="../Assets/images/star.png"
+              src={star}
               alt="star"
               className="img-fluid star"
             />

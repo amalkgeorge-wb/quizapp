@@ -4,6 +4,14 @@ import AvatarGroup from "@mui/material/AvatarGroup";
 import Rating from "@mui/material/Rating";
 import Button from "@mui/material/Button";
 import Quiz from "../Quizz";
+import sideprofile from "./HomeImages/quiz.png"
+import clock from "./HomeImages/clock.png"
+import swords from "./HomeImages/swords.png"
+import save from "./HomeImages/save.png"
+import question from "./HomeImages/question.png"
+import planning from "./HomeImages/planning.png"
+import comment from "./HomeImages/comment.png"
+import paper from "./HomeImages/paper.png"
 export default function Home() {
   const [open, setOpen] = useState(false);
   const [takeQuiz, setTakeQuiz] = useState(false);
@@ -34,7 +42,7 @@ export default function Home() {
         </h1>
         <img
           className="img-fluid home-img"
-          src="../Assets/images/quiz.png"
+          src={sideprofile}
           alt="side-profile"
         />
       </div>
@@ -47,7 +55,7 @@ export default function Home() {
             <div className="mb-2 socials-left">
               <img
                 className="icons img-fluid"
-                src="../Assets/images/comment.png"
+                src={comment}
                 alt="icons"
               />
               <span className="ms-2"> Leave a comment</span>
@@ -55,7 +63,7 @@ export default function Home() {
             <div className="mb-2 socials-left">
               <img
                 className="icons img-fluid"
-                src="../Assets/images/save.png"
+                src={save}
                 alt="icons"
               />
               <span className="ms-2">Save Quiz</span>
@@ -63,7 +71,7 @@ export default function Home() {
             <div className="mb-2 socials-left">
               <img
                 className="icons img-fluid"
-                src="../Assets/images/swords.png"
+                src={swords}
                 alt="icons"
               />
               <span className="ms-2">Challenge a friend</span>
@@ -98,7 +106,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="../Assets/images/paper.png"
+            src={paper}
             alt="icons"
           />
           <span className="ms-2">50% Passing Percentage</span>
@@ -107,7 +115,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="../Assets/images/question.png"
+            src={question}
             alt="icons"
           />
           <span className="ms-2">5 Questions</span>
@@ -116,7 +124,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="../Assets/images/clock.png"
+            src={clock}
             alt="icons"
           />
           <span className="ms-2">1 Minute</span>
@@ -125,7 +133,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="../Assets/images/planning.png"
+            src={planning}
             alt="icons"
           />
           <span className="ms-2">1 Attempt Daily</span>

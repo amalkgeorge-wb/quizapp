@@ -1,17 +1,19 @@
+import trophy from "../QuizzImages/trophy.png"
+import star from "../QuizzImages/star.png"
 export function Results({ count }) {
   return (
     <div className="results">
       <div>
         <div className="mt-3">
           <img
-            src="../Assets/images/trophy.png"
+            src={trophy}
             alt="trophy"
             className="img-fluid trophy"
           />
         </div>
         <div className="score">
           <img
-            src="../Assets/images/star.png"
+            src={star}
             alt="star"
             className="img-fluid star"
           />{" "}
