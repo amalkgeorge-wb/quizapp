@@ -1,38 +1,223 @@
+body{
+  background-color: rgb(9 0 100);
+}
 .App {
   text-align: center;
+  width: 100%;
 }
-
-.App-logo {
-  height: 40vmin;
-  pointer-events: none;
+.home{
+  height: 100vh;
 }
-
-@media (prefers-reduced-motion: no-preference) {
-  .App-logo {
-    animation: App-logo-spin infinite 20s linear;
-  }
+.icons{
+height: 20px;
+background: aliceblue;
+padding: 2px;
+border-radius: 5px;
 }
-
-.App-header {
-  background-color: #282c34;
-  min-height: 100vh;
-  display: flex;
-  flex-direction: column;
-  align-items: center;
-  justify-content: center;
-  font-size: calc(10px + 2vmin);
-  color: white;
+.header{
+  color: blue;
+  padding: 20px 40px 0;
 }
-
-.App-link {
-  color: #61dafb;
+.b-head{
+  background-color: antiquewhite;
+  border-radius: 20px;
+  margin: 20px;
 }
-
-@keyframes App-logo-spin {
-  from {
-    transform: rotate(0deg);
-  }
-  to {
-    transform: rotate(360deg);
-  }
+.b-head-title{
+  font-size: large;
+  color: cadetblue;
+  padding: 20px;
+}
+.home-img{
+  height: 200px;
+  width: 200px;
+  padding: 30px;
+}
+.quiz-text{
+  font-size: 40px;
+  color: darkblue;
+}
+.title-quiz{
+  color: #0dcaf0;
+}
+.topic{
+  color: #ffa500;
+}
+.socials{
+  padding: 0 40px 0 40px;
+  margin-top: 40px;
+  text-align: left;
+}
+.socials-left{
+color: crimson;
+}
+.socials-right{
+  color: aliceblue;
+}
+.about-quiz{
+  color: antiquewhite;
+}
+.read-more{
+  color: brown;
+  font-size: 14px;
+}
+.instructions{
+  color: #5b5b5b;
+  font-size: 20px;
+}
+.inst-details{
+  color: #fff;
+}
+.MuiBox-root{
+height: 700px;
+}
+.results{
+  border-radius: 10px;
+}
+.results-title{
+  font-size: 28px;
+  color: gold;
+  font-weight: bold;
+}
+.results-head{
+  color: #fff;
+  font-size: 24px;
+}
+.results-desc{
+  color: #fff;
+  font-size: 18px;
+}
+.check-results{
+  color: #ffa500;
+}
+.dash-body{
+  background-color: antiquewhite;
+  border-radius: 10px;
+  padding: 10px;
+}
+.leaders{
+  margin-bottom: 20px;
+}
+.leader-list{
+  padding: 10px 0 10px 0;
+  box-shadow: 0 0 10px rgb(213, 204, 73);
+  border-radius: 10px;
+}
+.number{
+  background-color: gold;
+  border-radius: 50%;
+  width: 20px;
+}
+.follow{
+  font-size: 12px;
+  font-weight: bold;
+  color: green;
+}
+.name{
+  padding-left: 10px;
+  padding-top: 10px;
+  font-size: 16px;
+  font-weight: bold;
+}
+.trophy{
+  border-radius: 10px;
+  box-shadow: 0 0 20px rgb(213, 204, 73);
+  height: 250px;
+}
+.star{
+  height: 50px;
+}
+.score{
+  background-color: cornflowerblue;
+  border-radius: 50px;
+  margin: 20px;
+}
+.score-point{
+  font-size: 20px;
+  font-weight: bold;
+}
+.question{
+  margin-bottom: 20px;
+  font-size: 20px;
+  font-weight: bolder;
+}
+.question-num{
+  font-weight: bold;
+}
+.options{
+  padding: 0 20px 0 20px;
+  text-align: left;
+  border: 1px solid black;
+  box-shadow: 0 0 10px rgb(66, 25, 233);;
+  border-radius: 5px;
+  margin-bottom: 20px;
+}
+.time{
+  background-color: #ff0000;
+  border-radius: 5px;
+  padding: 5px;
+  font-weight: 900;
+}
+.answers-title{
+  font-weight: bold;
+}
+.answers{
+text-align: left;
+}
+.dash-head{
+  color: blueviolet;
+}
+.dash-quiz{
+font-size: 50px;
+font-weight: 900;
+color: darkblue;
+}
+.dash-body-inner{
+  background: aliceblue;
+  padding: 10px;
+}
+.you-score{
+  color: darkmagenta;
+  font-size: 20px;
+}
+.your-percentage{
+  color: green;
+  font-weight: 700;
+}
+.comment{
+  font-weight: 900;
+}
+.dash-results{
+  font-size: 14px;
+  font-weight: 700;
+}
+.current-result{
+font-weight: 900;
+font-size: 24px;
+color: blueviolet;
+}
+.avg-result{
+font-size: 12px;
+font-weight: 500;
+}
+.share{
+  font-size: 12px;
+font-weight: 500;
+color: rgb(67, 10, 120);
+}
+.view-all{
+  font-size: 12px;
+  font-weight: 700;
+  color: darkgreen;
+}
+.points{
+  font-size: 12px;
+  font-weight: bold;
+  padding-right:10px ;
+  background-color: #ffa500;
+  border-radius: 5px;
+}
+.seekho{
+  font-weight: 900;
+  color: rgb(142, 5, 142);
 }
