@@ -34,7 +34,7 @@ export default function Home() {
         </h1>
         <img
           className="img-fluid home-img"
-          src="../Assets/Images/quiz.png"
+          src="../Assets/images/quiz.png"
           alt="side-profile"
         />
       </div>
@@ -47,7 +47,7 @@ export default function Home() {
             <div className="mb-2 socials-left">
               <img
                 className="icons img-fluid"
-                src="/Assets/Images/comment.png"
+                src="../Assets/images/comment.png"
                 alt="icons"
               />
               <span className="ms-2"> Leave a comment</span>
@@ -55,7 +55,7 @@ export default function Home() {
             <div className="mb-2 socials-left">
               <img
                 className="icons img-fluid"
-                src="/Assets/Images/save.png"
+                src="../Assets/images/save.png"
                 alt="icons"
               />
               <span className="ms-2">Save Quiz</span>
@@ -63,7 +63,7 @@ export default function Home() {
             <div className="mb-2 socials-left">
               <img
                 className="icons img-fluid"
-                src="/Assets/Images/swords.png"
+                src="../Assets/images/swords.png"
                 alt="icons"
               />
               <span className="ms-2">Challenge a friend</span>
@@ -98,7 +98,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="/Assets/Images/paper.png"
+            src="../Assets/images/paper.png"
             alt="icons"
           />
           <span className="ms-2">50% Passing Percentage</span>
@@ -107,7 +107,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="/Assets/Images/question.png"
+            src="../Assets/images/question.png"
             alt="icons"
           />
           <span className="ms-2">5 Questions</span>
@@ -116,7 +116,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="/Assets/Images/clock.png"
+            src="../Assets/images/clock.png"
             alt="icons"
           />
           <span className="ms-2">1 Minute</span>
@@ -125,7 +125,7 @@ export default function Home() {
           {" "}
           <img
             className="icons img-fluid"
-            src="/Assets/Images/planning.png"
+            src="../Assets/images/planning.png"
             alt="icons"
           />
           <span className="ms-2">1 Attempt Daily</span>

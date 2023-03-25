@@ -4,14 +4,14 @@ export function Results({ count }) {
       <div>
         <div className="mt-3">
           <img
-            src="/Assets/Images/trophy.png"
+            src="../Assets/images/trophy.png"
             alt="trophy"
             className="img-fluid trophy"
           />
         </div>
         <div className="score">
           <img
-            src="/Assets/Images/star.png"
+            src="../Assets/images/star.png"
             alt="star"
             className="img-fluid star"
           />{" "}

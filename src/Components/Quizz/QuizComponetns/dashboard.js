@@ -37,7 +37,7 @@ export default function DashBoard({ count, time }) {
         <h4 className="share">
           <img
             className="icons img-fluid"
-            src="/Assets/Images/share.png"
+            src="../Assets/images/share.png"
             alt="icon"
           />
           <span className="ms-2">Share it with your friends!</span>
@@ -61,7 +61,7 @@ export default function DashBoard({ count, time }) {
           </div>
           <div className="points">
             <img
-              src="/Assets/Images/star.png"
+              src="../Assets/images/star.png"
               alt="star"
               className="img-fluid star"
             />
