@@ -161,7 +161,6 @@ export default function Quiz(props) {
       setCount((count) => count + 1);
     }
   }
-  console.log(time);
   return (
     <div>
       <Modal
